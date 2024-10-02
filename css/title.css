@@ -1,0 +1,56 @@
+.title-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 50vh;
+}
+
+.title-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-text {
+    max-width: 600px;
+    text-align: center;
+}
+
+.title-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.title-text p {
+    font-size: 1.2rem;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .title-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .title-text h1 {
+        font-size: 2rem;
+    }
+
+    .title-text p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .title-text p {
+        font-size: 0.9rem;
+    }
+}
