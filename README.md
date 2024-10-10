@@ -3,7 +3,9 @@
 ## Description
 
 - Made with HTML, CSS & JS
-- One-paged website
+- One page website
+- Only 1 font
+
 
 -----------------------
 
